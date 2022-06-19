@@ -1,0 +1,38 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="convertor-header">
+            <h2>Metric/Imperial unit conversion</h2>
+            <input type="number" id="unitsToConvert">
+        </section>
+        <section class="convertor-results">
+            <div class="convertor-result"></div>
+                <h3>Length (Meter/Feet)</h3>
+                <p>
+                    <span class="conversion" id="length-me-im">0 meters = 0.000 feet</span>
+                    <span class="conversion" id="length-im-me">0 feet = 0.000 meters</span>
+                </p>
+            <div></div>
+            <div class="convertor-result"></div>
+                <h3>Volume (Liters/Gallons)</h3>
+                <p>
+                    <span class="conversion" id="volume-me-im">0 liters = 0.000 gallons</span>
+                    <span class="conversion" id="volume-im-me">0 gallons = 0.000 liters</span>
+                </p>
+            <div></div>
+            <div class="convertor-result"></div>
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p>
+                    <span class="conversion" id="mass-me-im">0 kilos = 0.000 pounds</span>
+                    <span class="conversion" id="mass-im-me">0 pounds = 0.000 kilos</span>
+                </p>
+            <div></div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
