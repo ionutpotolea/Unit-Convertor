@@ -10,7 +10,7 @@ unitsToConvert.focus()
 unitsToConvert.addEventListener("keyup", updateConversions)
 
 function updateConversions() {
-    const num = parseInt(unitsToConvert.value) ? parseInt(unitsToConvert.value) : 0
+    const num = parseFloat(unitsToConvert.value) ? parseFloat(unitsToConvert.value) : 0
     lengthMeIm.textContent = `${num} meters = ${calculateLengthMeIm(num)} feet`
     lengthImMe.textContent = `${num} feet = ${calculateLengthImMe(num)} meters`
     volumeMeIm.textContent = `${num} liters = ${calculateVolumeMeIm(num)} gallons`
